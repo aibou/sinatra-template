@@ -2,9 +2,9 @@
 $font_black : #222;
 
 @mixin content {
-  div {
-    margin : 10px;
-    font-size : 95%;
+  div#map_canvas {
+    width : 800px;
+    height : 600px; 
   }
 }
 
